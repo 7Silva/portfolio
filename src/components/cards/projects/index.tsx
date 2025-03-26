@@ -1,10 +1,13 @@
+import { get } from '@vercel/edge-config'
+
 import { Button } from '../../ui/button'
 import CardProject from './card-project'
 
-// Images
-import java from '@/../public/Java-01.svg'
+import { Project } from '@/types/projects'
 
-export default function Projects() {
+export default async function Projects() {
+  const projects = await get<Project[]>('projects')
+
   return (
     <div className="bg-border flex w-full flex-col gap-5 rounded-2xl px-6 py-4">
       <div className="flex w-full items-center justify-between">
@@ -19,12 +22,12 @@ export default function Projects() {
       </div>
 
       <div className="flex flex-col gap-3 py-2">
-        {new Array(3).fill(0).map((_, index) => (
+        {projects?.map((project, index) => (
           <CardProject
             key={index}
-            title="Upload Cloudflare R2"
-            description="RESTful API for uploading files to Cloudflare R2, built with Spring Boot."
-            image={java}
+            title={project.name}
+            description={project.description}
+            image={project.image}
           />
         ))}
       </div>

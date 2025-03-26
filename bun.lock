@@ -5,6 +5,7 @@
       "name": "portfolio",
       "dependencies": {
         "@radix-ui/react-slot": "^1.1.2",
+        "@vercel/edge-config": "^1.4.0",
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
         "lucide-react": "^0.484.0",
@@ -235,6 +236,10 @@
     "@unrs/rspack-resolver-binding-win32-arm64-msvc": ["@unrs/rspack-resolver-binding-win32-arm64-msvc@1.2.2", "", { "os": "win32", "cpu": "arm64" }, "sha512-7sWRJumhpXSi2lccX8aQpfFXHsSVASdWndLv8AmD8nDRA/5PBi8IplQVZNx2mYRx6+Bp91Z00kuVqpXO9NfCTg=="],
 
     "@unrs/rspack-resolver-binding-win32-x64-msvc": ["@unrs/rspack-resolver-binding-win32-x64-msvc@1.2.2", "", { "os": "win32", "cpu": "x64" }, "sha512-hewo/UMGP1a7O6FG/ThcPzSJdm/WwrYDNkdGgWl6M18H6K6MSitklomWpT9MUtT5KGj++QJb06va/14QBC4pvw=="],
+
+    "@vercel/edge-config": ["@vercel/edge-config@1.4.0", "", { "dependencies": { "@vercel/edge-config-fs": "0.1.0" }, "peerDependencies": { "@opentelemetry/api": "^1.7.0" }, "optionalPeers": ["@opentelemetry/api"] }, "sha512-69Wg5gw9DzwnyUmnjToSeLRm1nm8mCPgN0kflX8EHRHyqvzH80wPem5A8rI2LXPb2Y9tJNoqN3vXPcQhS2Wh5g=="],
+
+    "@vercel/edge-config-fs": ["@vercel/edge-config-fs@0.1.0", "", {}, "sha512-NRIBwfcS0bUoUbRWlNGetqjvLSwgYH/BqKqDN7vK1g32p7dN96k0712COgaz6VFizAm9b0g6IG6hR6+hc0KCPg=="],
 
     "acorn": ["acorn@8.14.1", "", { "bin": { "acorn": "bin/acorn" } }, "sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg=="],
 

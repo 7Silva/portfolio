@@ -6,7 +6,7 @@ import { ChevronRight } from 'lucide-react'
 interface CardProjectProps {
   title: string
   description: string
-  image: StaticImageData
+  image: string
 }
 
 export default function CardProject({
