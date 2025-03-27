@@ -7,7 +7,7 @@ import { Linkedin, Instagram } from 'lucide-react'
 export default function CardFooter() {
   return (
     <div className="flex w-full flex-col gap-10 pt-10">
-      <div className="flex w-full flex-col items-center justify-center gap-4">
+      <div className="flex w-full flex-col items-center justify-center gap-4 text-center">
         <h1 className="font-urbanist text-4xl font-semibold tracking-wide">
           Let&apos;s work together.
         </h1>
@@ -35,7 +35,7 @@ export default function CardFooter() {
         <p className="font-urbanist text-sm tracking-wide text-white/70">
           © 2025 Daniel T. Silva. All rights reserved.
         </p>
-        <p className="font-urbanist text-xs tracking-wide text-white/70">
+        <p className="font-urbanist text-center text-xs tracking-wide text-white/70">
           Check out the source code for this site on my GitHub:{' '}
           <Link
             href="https://github.com/7silva/portfolio"

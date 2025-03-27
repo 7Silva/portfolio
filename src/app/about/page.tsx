@@ -9,17 +9,17 @@ import memoji from '@/../public/memoji.png'
 
 export default function AboutPage() {
   return (
-    <main className="mx-auto flex max-w-3/6 flex-col gap-5 py-7">
+    <main className="mx-auto flex max-w-screen flex-col gap-5 px-3 py-7 max-sm:gap-3 max-sm:px-2 max-sm:py-3 lg:max-w-4/6 xl:max-w-3/6">
       <Header />
 
       <section>
         <BaseCard>
-          <div className="px-7">
+          <div className="px-7 max-sm:px-4">
             <CardHeader title="About" />
 
             <div className="py-9">
               <div className="flex flex-col gap-3">
-                <h1 className="font-nunito text-4xl font-bold text-white">
+                <h1 className="font-nunito text-4xl font-bold text-white max-sm:text-3xl">
                   That&apos;s me, Daniel
                 </h1>
                 <p className="font-urbanist max-w-2xl tracking-widest hyphens-auto text-white/85">
@@ -51,7 +51,7 @@ export default function AboutPage() {
                   />
                 </div>
 
-                <h2 className="font-nunito mt-4 text-4xl font-bold text-white">
+                <h2 className="font-nunito mt-4 text-4xl font-bold text-white max-sm:text-3xl">
                   More about me
                 </h2>
 
