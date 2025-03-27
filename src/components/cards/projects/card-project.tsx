@@ -21,13 +21,15 @@ export default function CardProject({
     >
       <div className="flex w-full items-center sm:justify-between">
         <div className="flex gap-5">
-          <div className="bg-border h-14 w-14 rounded-full p-1 drop-shadow-md">
+          <div className="bg-border h-14 w-14 rounded-full p-1 drop-shadow-md max-sm:h-12 max-sm:w-12">
             <Image src={image} alt="Java" width={56} height={56} />
           </div>
 
           <div className="flex flex-col gap-1">
-            <h3 className="font-nunito text-xl font-bold">{title}</h3>
-            <p className="font-urbanist max-w-[220px] truncate text-white/70 sm:max-w-lg">
+            <h3 className="font-nunito text-xl font-bold max-sm:text-base">
+              {title}
+            </h3>
+            <p className="font-urbanist max-w-[200px] truncate text-white/70 max-sm:text-sm sm:max-w-96">
               {description}
             </p>
           </div>

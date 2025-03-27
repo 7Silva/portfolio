@@ -14,7 +14,7 @@ export default function AboutPage() {
 
       <section>
         <BaseCard>
-          <div className="px-7 max-sm:px-4">
+          <div className="px-7 max-sm:px-2">
             <CardHeader title="About" />
 
             <div className="py-9">
@@ -23,8 +23,8 @@ export default function AboutPage() {
                   That&apos;s me, Daniel
                 </h1>
                 <p className="font-urbanist max-w-2xl tracking-widest hyphens-auto text-white/85">
-                  I am a Full Stack developer with five years of experience in
-                  the technology field. Throughout my career, I have gained
+                  I&apos;m a Full Stack developer with five years of experience
+                  in the technology field. Throughout my career, I have gained
                   expertise in various languages and frameworks, including React
                   Native, React, Node.js, TypeScript, Python, Golang, Java, and
                   C#. Currently, I am focusing on deepening my specialization in

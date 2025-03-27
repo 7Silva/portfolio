@@ -37,9 +37,9 @@ export default function Home() {
                   I&apos;m Daniel T. Silva
                 </h1>
                 <p className="font-urbanist max-w-2xl tracking-wider text-white/70 max-sm:text-sm">
-                  I&apos;am a Full Stack programmer, working in the field for
-                  about 5 years. I have experience with technologies like React,
-                  Next.js, Java, Golang, and others.
+                  A Full Stack developer who has been working in the industry
+                  for around 5 years. I have experience with technologies such
+                  as React, Next.JS, Java, Golang, among others.
                 </p>
 
                 <div className="mt-5 flex gap-2">
