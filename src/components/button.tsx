@@ -1,8 +1,17 @@
+'use client'
+
+import { useRouter } from 'next/navigation'
+
 import { Button } from './ui/button'
 
 export default function ButtonE() {
+  const router = useRouter()
+
   return (
-    <Button className="group/btn relative flex cursor-pointer justify-center overflow-hidden">
+    <Button
+      onClick={() => router.push('/contact')}
+      className="group/btn relative flex cursor-pointer justify-center overflow-hidden"
+    >
       <span className="font-urbanist text-center font-semibold text-white transition-all duration-500 group-hover/btn:translate-x-40">
         Contact
       </span>

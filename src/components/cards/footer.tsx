@@ -1,35 +1,30 @@
 import Link from 'next/link'
 
-import Button from '@/components/button'
-
 import { Linkedin, Instagram } from 'lucide-react'
 
-export default function CardFooter() {
+export default function CardFooter({
+  children,
+}: {
+  children?: React.ReactNode
+}) {
   return (
     <div className="flex w-full flex-col gap-10 pt-10">
-      <div className="flex w-full flex-col items-center justify-center gap-4 text-center">
-        <h1 className="font-urbanist text-4xl font-semibold tracking-wide max-sm:text-3xl">
-          Let&apos;s work together.
-        </h1>
-
-        <p className="font-nunito tracking-wide text-white/70 max-sm:text-sm">
-          Building scalable solutions and robust systems with cutting-edge
-          technology
-        </p>
-
-        <div className="flex gap-2">
-          <Button />
-        </div>
-      </div>
+      {children}
 
       <div className="bg-border flex w-full flex-col items-center justify-center gap-3.5 rounded-xl p-7">
         <div className="flex gap-3">
-          <div className="bg-card hover:bg-card/70 cursor-pointer rounded-full p-3 transition-all duration-500">
+          <Link
+            href="https://www.linkedin.com/in/daniel-texeira-silva-498620233/"
+            className="bg-card hover:bg-card/70 cursor-pointer rounded-full p-3 transition-all duration-500"
+          >
             <Linkedin size={20} className="text-white/70" />
-          </div>
-          <div className="bg-card hover:bg-card/70 cursor-pointer rounded-full p-3 transition-all duration-500">
+          </Link>
+          <Link
+            href="https://www.instagram.com/7silvasz/"
+            className="bg-card hover:bg-card/70 cursor-pointer rounded-full p-3 transition-all duration-500"
+          >
             <Instagram size={20} className="text-white/70" />
-          </div>
+          </Link>
         </div>
 
         <p className="font-urbanist text-sm tracking-wide text-white/70">

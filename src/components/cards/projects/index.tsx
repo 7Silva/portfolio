@@ -1,6 +1,5 @@
 import { get } from '@vercel/edge-config'
 
-import { Button } from '../../ui/button'
 import CardProject from './card-project'
 
 import { Project } from '@/types/projects'
@@ -17,8 +16,6 @@ export default async function Projects() {
             Projects
           </h1>
         </div>
-
-        <Button>View All</Button>
       </div>
 
       <div className="flex flex-col gap-3 py-2">

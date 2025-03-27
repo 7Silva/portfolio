@@ -1,9 +1,10 @@
 import Image from 'next/image'
 
-import BaseCard from '@/components/cards/base'
 import CardFooter from '@/components/cards/footer'
 import CardHeader from '@/components/cards/header'
+import BaseCard from '@/components/cards/base'
 import Header from '@/components/header'
+import Button from '@/components/button'
 
 import memoji from '@/../public/memoji.png'
 
@@ -76,7 +77,22 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <CardFooter />
+          <CardFooter>
+            <div className="flex w-full flex-col items-center justify-center gap-4 text-center">
+              <h1 className="font-urbanist text-4xl font-semibold tracking-wide max-sm:text-3xl">
+                Let&apos;s work together.
+              </h1>
+
+              <p className="font-nunito tracking-wide text-white/70 max-sm:text-sm">
+                Building scalable solutions and robust systems with cutting-edge
+                technology
+              </p>
+
+              <div className="flex gap-2">
+                <Button />
+              </div>
+            </div>
+          </CardFooter>
         </BaseCard>
       </section>
     </main>
