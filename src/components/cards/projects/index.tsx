@@ -22,6 +22,7 @@ export default async function Projects() {
         {projects?.map((project, index) => (
           <CardProject
             key={index}
+            link={project.link}
             title={project.name}
             description={project.description}
             image={project.image}
