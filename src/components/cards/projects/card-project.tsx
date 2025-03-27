@@ -20,7 +20,7 @@ export default function CardProject({
       className="group/projects w-full rounded-xl border border-[#424242] bg-[#373737] px-4 py-5 drop-shadow-md hover:drop-shadow-lg"
     >
       <div className="flex w-full items-center sm:justify-between">
-        <div className="flex gap-5">
+        <div className="flex gap-5 max-sm:flex-col max-sm:gap-3">
           <div className="bg-border h-14 w-14 rounded-full p-1 drop-shadow-md max-sm:h-12 max-sm:w-12">
             <Image src={image} alt="Java" width={56} height={56} />
           </div>
@@ -29,7 +29,7 @@ export default function CardProject({
             <h3 className="font-nunito text-xl font-bold max-sm:text-base">
               {title}
             </h3>
-            <p className="font-urbanist max-w-[200px] truncate text-white/70 max-sm:text-sm sm:max-w-96">
+            <p className="font-urbanist max-w-[260px] truncate text-white/70 max-sm:text-sm sm:max-w-96">
               {description}
             </p>
           </div>
