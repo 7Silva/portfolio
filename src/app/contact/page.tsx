@@ -3,7 +3,9 @@ import Link from 'next/link'
 import BaseCard from '@/components/cards/base'
 import CardFooter from '@/components/cards/footer'
 import CardHeader from '@/components/cards/header'
+import FormComponent from '@/components/form'
 import Header from '@/components/header'
+import { Toaster } from '@/components/ui/sonner'
 
 export default function ContactPage() {
   return (
@@ -33,12 +35,16 @@ export default function ContactPage() {
               <p className="font-urbanist max-w-xl tracking-wider text-white/70 max-sm:text-sm">
                 Have an idea and need development support? Reach out now!
               </p>
+
+              <FormComponent />
             </div>
           </div>
 
           <CardFooter />
         </BaseCard>
       </section>
+
+      <Toaster />
     </main>
   )
 }
