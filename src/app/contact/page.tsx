@@ -6,8 +6,8 @@ import Header from '@/components/layout/header'
 
 // UI
 import BaseCard from '@/components/ui/cards/base'
-import CardFooter from '@/components/ui/cards/footer'
-import CardHeader from '@/components/ui/cards/header'
+import CardFooter from '@/components/ui/cards/layout/footer'
+import CardHeader from '@/components/ui/cards/layout/header'
 import FormComponent from '@/components/ui/form/index'
 import { Toaster } from '@/components/ui/sonner'
 

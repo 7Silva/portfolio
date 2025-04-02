@@ -7,9 +7,9 @@ import Header from '@/components/layout/header'
 
 // UI
 import BaseCard from '@/components/ui/cards/base'
-import CardHeader from '@/components/ui/cards/header'
-import Projects from '@/components/ui/cards/projects'
-import CardFooter from '@/components/ui/cards/footer'
+import CardHeader from '@/components/ui/cards/layout/header'
+import Projects from '@/components/ui/cards/ui/projects'
+import CardFooter from '@/components/ui/cards/layout/footer'
 
 // Components
 import Button from '@/components/button'

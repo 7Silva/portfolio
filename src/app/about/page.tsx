@@ -5,8 +5,8 @@ import Image from 'next/image'
 import Header from '@/components/layout/header'
 
 // UI
-import CardFooter from '@/components/ui/cards/footer'
-import CardHeader from '@/components/ui/cards/header'
+import CardFooter from '@/components/ui/cards/layout/footer'
+import CardHeader from '@/components/ui/cards/layout/header'
 import BaseCard from '@/components/ui/cards/base'
 
 // Components
