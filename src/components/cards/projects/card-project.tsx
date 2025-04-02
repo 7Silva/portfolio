@@ -25,8 +25,14 @@ export default function CardProject({
     >
       <div className="flex w-full items-center sm:justify-between">
         <div className="flex gap-5 max-sm:flex-col max-sm:gap-3">
-          <div className="bg-border h-14 w-14 rounded-full flex items-center justify-center p-1 drop-shadow-md max-sm:h-12 max-sm:w-12">
-            <Image src={image} alt="Java" width={50} height={50} className='w-10' />
+          <div className="bg-border flex h-14 w-14 items-center justify-center rounded-full p-1 drop-shadow-md max-sm:h-12 max-sm:w-12">
+            <Image
+              src={image}
+              alt="Java"
+              width={50}
+              height={50}
+              className="w-10"
+            />
           </div>
 
           <div className="flex flex-col gap-1">
