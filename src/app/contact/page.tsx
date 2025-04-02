@@ -1,10 +1,14 @@
+// Packages
 import Link from 'next/link'
 
-import BaseCard from '@/components/cards/base'
-import CardFooter from '@/components/cards/footer'
-import CardHeader from '@/components/cards/header'
-import FormComponent from '@/components/form'
-import Header from '@/components/header'
+// Layout
+import Header from '@/components/layout/header'
+
+// UI
+import BaseCard from '@/components/ui/cards/base'
+import CardFooter from '@/components/ui/cards/footer'
+import CardHeader from '@/components/ui/cards/header'
+import FormComponent from '@/components/ui/form/index'
 import { Toaster } from '@/components/ui/sonner'
 
 export default function ContactPage() {

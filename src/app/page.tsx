@@ -1,13 +1,20 @@
+// Packages
 import Link from 'next/link'
 import Image from 'next/image'
 
-import BaseCard from '@/components/cards/base'
-import CardHeader from '@/components/cards/header'
-import Header from '@/components/header'
-import Projects from '@/components/cards/projects'
-import CardFooter from '@/components/cards/footer'
+// Layout
+import Header from '@/components/layout/header'
+
+// UI
+import BaseCard from '@/components/ui/cards/base'
+import CardHeader from '@/components/ui/cards/header'
+import Projects from '@/components/ui/cards/projects'
+import CardFooter from '@/components/ui/cards/footer'
+
+// Components
 import Button from '@/components/button'
 
+// Images
 import memoji from '@/../public/memoji.png'
 
 export default function Home() {

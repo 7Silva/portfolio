@@ -1,11 +1,18 @@
+// Packages
 import Image from 'next/image'
 
-import CardFooter from '@/components/cards/footer'
-import CardHeader from '@/components/cards/header'
-import BaseCard from '@/components/cards/base'
-import Header from '@/components/header'
+// Layout
+import Header from '@/components/layout/header'
+
+// UI
+import CardFooter from '@/components/ui/cards/footer'
+import CardHeader from '@/components/ui/cards/header'
+import BaseCard from '@/components/ui/cards/base'
+
+// Components
 import Button from '@/components/button'
 
+// Images
 import aboutImage from '@/../public/about-image.jpg'
 
 export default function AboutPage() {
