@@ -1,9 +1,14 @@
 'use client'
 
+// Packages
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import { useMemo } from 'react'
+
+// Components
 import Button from '@/components/button'
+
+// Icons
 import { House, CircleUser } from 'lucide-react'
 
 const navigationItems = [
