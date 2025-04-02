@@ -6,7 +6,7 @@ import BaseCard from '@/components/cards/base'
 import Header from '@/components/header'
 import Button from '@/components/button'
 
-import memoji from '@/../public/memoji.png'
+import aboutImage from '@/../public/about-image.jpg'
 
 export default function AboutPage() {
   return (
@@ -44,7 +44,7 @@ export default function AboutPage() {
 
                 <div className="rounded-2xl border border-[#424242] bg-[#373737] p-3 drop-shadow-lg">
                   <Image
-                    src={memoji}
+                    src={aboutImage}
                     alt="Daniel T. Silva"
                     className="rounded-2xl"
                     width={1000}
