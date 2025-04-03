@@ -78,9 +78,9 @@ async function ProjectContent({ projectName }: { projectName: string }) {
     <div className="px-7 max-sm:px-2">
       <CardHeader
         type="project"
-        clientName="Daniel T. Silva"
-        companyName="Daniel T. Silva"
-        projectYear={2025}
+        clientName={project.data.header.clientName}
+        companyName={project.data.header.companyName}
+        projectYear={project.data.header.projectYear}
       />
 
       <div className="py-9">

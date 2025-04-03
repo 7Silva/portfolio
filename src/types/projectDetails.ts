@@ -3,9 +3,16 @@ export interface ProjectButton {
   link: string
 }
 
+export interface ProjectHeader {
+  clientName: string
+  companyName: string
+  projectYear: number
+}
+
 export interface ProjectContent {
   id: number
   title?: string
+  header: ProjectHeader
   description: string
   button?: ProjectButton
   image?: string
