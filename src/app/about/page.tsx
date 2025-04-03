@@ -23,7 +23,7 @@ export default function AboutPage() {
       <section>
         <BaseCard>
           <div className="px-7 max-sm:px-2">
-            <CardHeader title="About" />
+            <CardHeader type="title" title="About" />
 
             <div className="py-9">
               <div className="flex flex-col gap-3">

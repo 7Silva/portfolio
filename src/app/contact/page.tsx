@@ -19,7 +19,7 @@ export default function ContactPage() {
       <section>
         <BaseCard>
           <div className="px-7">
-            <CardHeader title="Hire me">
+            <CardHeader type="title" title="Hire me">
               <Link
                 href="/#"
                 className="flex items-center gap-1.5 rounded-lg bg-green-400/15 px-2 py-0.5 max-sm:p-1.5"

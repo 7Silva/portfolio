@@ -25,9 +25,9 @@ export default function Home() {
       <section>
         <BaseCard>
           <div className="px-7">
-            <CardHeader title="Full stack developer">
+            <CardHeader type="title" title="Full stack developer">
               <Link
-                href="#"
+                href="/contact"
                 className="flex items-center gap-1.5 rounded-lg bg-green-400/15 px-2 py-0.5 max-sm:p-1.5"
               >
                 <div className="h-1.5 w-1.5 animate-ping rounded-full bg-green-400 [animation-duration:1.5s]" />
