@@ -67,8 +67,6 @@ export default async function ProjectPage({
 }
 
 async function ProjectContent({ projectName }: { projectName: string }) {
-  await new Promise((resolve) => setTimeout(resolve, 3000))
-
   const projectData = await getProjectByName(projectName)
   const project = projectSchema.safeParse(projectData)
 
